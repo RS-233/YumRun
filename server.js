@@ -16,7 +16,7 @@ const port = 4000
 //middleware
 app.use(express.json())
 app.use(cors({
-   origin: `https://yum-runfront.vercel.app/`
+   origin: `http://yum-runfront.vercel.app/`
 }))
 
 // DB Connection
