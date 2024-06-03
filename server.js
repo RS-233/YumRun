@@ -19,6 +19,7 @@ const allowedOrigins = [
     'https://admin-gamma-opal.vercel.app'
 ];
 
+app.use(express.json())
 app.use(cors({
     origin: function (origin, callback) {
         if (!origin || allowedOrigins.indexOf(origin) !== -1) {
