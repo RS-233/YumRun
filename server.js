@@ -16,7 +16,7 @@ const port = 4000
 //middleware
 const allowedOrigins = [
     'ttps://yum-runfront.vercel.app',
-    'https://admin-gamma-opal.vercel.app',
+    'https://admin-gamma-opal.vercel.app'
 ];
 
 app.use(cors({
