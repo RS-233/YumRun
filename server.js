@@ -17,6 +17,7 @@ const port = 4000
 app.use(express.json())
 app.use(cors({
    origin: `https://yum-runfront.vercel.app`,
+   origin: `https://admin-gamma-opal.vercel.app/`,
     optionsSuccessStatus: 200
 }))
 
