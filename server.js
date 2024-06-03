@@ -14,12 +14,20 @@ const app = express()
 const port = 4000
 
 //middleware
-app.use(express.json())
+const allowedOrigins = [
+    'https://yum-runfront.vercel.app',
+    'https://admin-gamma-opal.vercel.app'
+];
+
 app.use(cors({
-   origin: `https://yum-runfront.vercel.app`,
-   origin: `https://admin-gamma-opal.vercel.app/`,
-    optionsSuccessStatus: 200
-}))
+    origin: function (origin, callback) {
+        if (!origin || allowedOrigins.indexOf(origin) !== -1) {
+            callback(null, true);
+        } else {
+            callback(new Error('Not allowed by CORS'));
+        }
+    }
+}));
 
 // DB Connection
 connectDB();
