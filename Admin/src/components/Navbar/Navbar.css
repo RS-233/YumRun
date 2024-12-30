@@ -1,0 +1,18 @@
+
+.navbar{
+    border-bottom: 1px solid rgb(160, 160, 160);
+    background-color: rgb(255, 245, 232);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 4%;
+}
+.navbar .logo {
+    width: max(18%,80px);
+}
+.navbar .profile{
+    padding: 5px;
+    border: 3px solid rgb(255, 102, 0);
+    border-radius: 50px;
+    width: max(4.5%,40px)
+}
