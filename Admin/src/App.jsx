@@ -9,7 +9,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
 
-  const url = `https://yum-run-backend.vercel.app`;
+  const url = `https://yumrun-backend-nlds.onrender.com`;
 
 
   
