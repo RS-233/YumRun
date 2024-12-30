@@ -23,7 +23,7 @@
 .food-desc{
     color: rgb(137, 137, 137);
     font-size: 15px;
-    margin-bottom: 5px;
+    margin: 6px 0px;
 }
 .food-price{
     display: flex;
