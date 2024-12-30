@@ -13,7 +13,7 @@ import orderRouter from "./routes/orderRoute.js"
 const app = express()
 const port = process.env.PORT || 4000;
 const corsOptions = {
-    origin: ['http://localhost:5173', `https://yumrun-admin-2je2.onrender.com`],
+    origin: [`https://yumrun-z9ry.onrender.com`, `https://yumrun-admin-2je2.onrender.com`],
     optionsSuccessStatus: 200,
 };
 //middleware
