@@ -16,4 +16,4 @@ export const assets ={
     checklist,
 }
 
-export const url = `https://yum-run-backend.vercel.app`
+export const url = `https://yumrun-backend-nlds.onrender.com`
